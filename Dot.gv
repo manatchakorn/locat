@@ -1,0 +1,9 @@
+digraph D {
+
+  "TCP Server" [shape=box]
+  "Decoder" [shape=box]
+  "Forwarder" [shape=box]
+
+  "TCP Server" -> {Decoder, Forwarder} -> { "DLT Forwarder" }
+
+}
